@@ -85,7 +85,7 @@ getPostTitles()
 
       const filename = "bd.json";
       fs.writeFileSync(filename, '{ "convocatorias": '+datos+"}");
-      console.log(datos)
+      // console.log(datos)
     });
 
 
