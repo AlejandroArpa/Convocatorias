@@ -11,4 +11,6 @@ sudo npm install cheerio
 sudo npm install axios
 sudo npm install json-server
 ```
-Una vez nos aseguramos de contar con los paquetes necesarios para correr nuestro proyecto, por medio de la consola, y con la certeza de encontrarnos dentro del directorio donde alojamos nuestro proyecto, ejecutamos el comando `node MyServer.js`, este se encarga de hacer el webscrapping a la url https://ape.sena.edu.co/spe-web/spe/cartelera y de crear el archivo, o en su defecto sobreescribir db.json.
+Una vez nos aseguramos de contar con los paquetes necesarios para correr nuestro proyecto, por medio de la consola, y con la certeza de encontrarnos dentro del directorio donde alojamos nuestro proyecto, ejecutamos el comando `node MyServer.js`, este se encarga de hacer el webscrapping a la url https://ape.sena.edu.co/spe-web/spe/cartelera y de crear el archivo, o en su defecto sobreescribir bd.json. 
+
+Porsteriormente crearemos de forma local nuestro servidor mediante el comando `npm start`.
