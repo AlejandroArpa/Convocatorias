@@ -1,11 +1,15 @@
-import logo from './logo.svg';
+import React from "react";
+import {BrowserRouter, Routes, Route } from "react-router-dom"
+import login from "../pages/login";
 
-function Routes() {
+function Rutas() {
   return (
-    <div className="Routes">
-      
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route exact path="/" element={<login/>}/>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
-export default Routes;
+export default Rutas;
